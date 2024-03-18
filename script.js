@@ -8,9 +8,11 @@ function firstNonRepeatedChar(str) {
 	// }
 
 	// for(let )
-	// if(a === 0){
-	// 	return null;
-	// }
+
+	
+	if(a === 0){
+		return null;
+	}
        
        let flag = false;
        for (let i = 0; i < a; i++) {
