@@ -15,14 +15,14 @@ function firstNonRepeatedChar(str) {
                }
            }
            if(count === 0){
-               console.log(str[i]);
+               return str[i];
                break;
            }
        }
 	if(flag === true){
-	console.log("null");
+	return null;
 	}
        
 }
-// const input = prompt("Enter a string");
+const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
